@@ -6,4 +6,8 @@ export default defineNuxtConfig({
   buildModules: [
     '@nuxtjs/vuex',
   ],
+  app: {
+    baseURL: '/my-resume/',
+    buildAssetsDir: 'assets',
+  }
 })
