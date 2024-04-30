@@ -26,6 +26,17 @@
       <div class="textMarginLeft">- developing a developer page.</div>
     </div>
     <div class="blockExperience">
+      <div class="fontWeight">{{ titleE4 }}</div>
+      <a target="_blank" href="https://guide.intita.com/">
+        https://guide.intita.com
+      </a>
+      <div>{{ techno }}: html, css, js, github, google meet, trello, figma, Vue.js, Nuxt.js, Vuetify, d3, vue-carusel, maska, Sass.</div>
+      <div>{{ role }}: - development form of communication, validation and mask";</div>
+      <div class="textMarginLeft">- development header;</div>
+      <div class="textMarginLeft">- developing a developer page.</div>
+    </div>
+
+    <div class="blockExperience">
       <div class="fontWeight">{{ titleE3 }}</div>
       <a target="_blank" href="https://bday.intita.com/">
         https://bday.intita.com
@@ -49,6 +60,7 @@ export default {
       titleE1: ref('Beauty Dance Studio - website Dance Studio Vinnytsia'),
       titleE2: ref('Oksana Plakosh – website math teacher`s'),
       titleE3: ref('B-day - the website for greetings in the company is currently under development'),
+      titleE4: ref('Guide by specializations – specialty review website'),
       techno: ref('technologies'),
       role: ref('my role'),
       experienceEnd: ref('I have experience working with real estate documents. Also in execution of drawings of buildings in software complexes.'),
@@ -61,6 +73,7 @@ export default {
         this.titleE1='Beauty Dance Studio - вебсайт Вінницької студії танцю';
         this.titleE2='Oksana Plakosh – вебсайт вчителя математики';
         this.titleE3='B-day - сайт для привітань в компанії наразі в розробці';
+        this.titleE4= 'Guide by specializations – гід по спеціальностях';
         this.techno='технології';
         this.role='моя роль';
         this.experienceEnd='Маю досвід роботи з документами на нерухомість. Також у виконанні креслень будівель у програмних комплексах.';
@@ -70,6 +83,7 @@ export default {
         this.titleE1='Beauty Dance Studio - website Dance Studio Vinnytsia';
         this.titleE2='Oksana Plakosh – website math teacher`s';
         this.titleE3='B-day - the website for greetings in the company is currently under development';
+        this.titleE4= 'Guide by specializations – specialty review website';
         this.techno='technologies';
         this.role='my role';
         this.experienceEnd='I have experience working with real estate documents. Also in execution of drawings of buildings in software complexes.';

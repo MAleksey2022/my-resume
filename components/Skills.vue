@@ -36,7 +36,7 @@ export default {
       softSkills: ref('Sociable, quick learner, have experience working in a team, good interaction with the Back-end development team.'),
       titleHardSkills: ref('Hard Skills'),
       hardSkills: ref([
-        'frontend: Html, Css, JS, Vue.js, Nuxt.js, d3.js, swiper.js, axios, fetch, wow effects, vuex, vuetify, pinia, Scss.',
+        'frontend: Html, Css, JS, Vue.js, Nuxt.js, d3.js, swiper.js, axios, fetch, wow effects, vuex, vuetify, pinia, Scss, Sass.',
         'backend: PHP, Laravel, MySQL.',
         'other: Google meet, Figma, Trello, Git hub, Jira.',
       ]),
