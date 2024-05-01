@@ -1,53 +1,53 @@
 <template>
-  <div class="containerExperience">
-    <h1 class="experienceTitle">{{ title }}</h1>
-    <div class="blockExperience">
-      <div class="fontWeight">{{ titleE1 }}</div>
+  <div class="container-Experience">
+    <h1 class="experience-Title">{{ title }}</h1>
+    <div class="block-Experience">
+      <div class="font-Weight">{{ titleE1 }}</div>
       <a target="_blank" href="https://beautydancestudio.intita.com/">
         https://beautydancestudio.intita.com
       </a>
       <div>{{ techno }}: html, css, js, github, google meet, trello, figma.</div>
       <div>{{ role }}: - development of the block "about us";</div>
-      <div class="textMarginLeft">- development of the block "our team";</div>
-      <div class="textMarginLeft">- development "Header";</div>
-      <div class="textMarginLeft">- 404 error page development;</div>
-      <div class="textMarginLeft">- developing a developer page.</div>
+      <div class="text-Margin-Left">- development of the block "our team";</div>
+      <div class="text-Margin-Left">- development "Header";</div>
+      <div class="text-Margin-Left">- 404 error page development;</div>
+      <div class="text-Margin-Left">- developing a developer page.</div>
     </div>
-    <div class="blockExperience">
-      <div class="fontWeight">{{ titleE2 }}</div>
+    <div class="block-Experience">
+      <div class="font-Weight">{{ titleE2 }}</div>
       <a target="_blank" href="https://oksanaplakosh.intita.com/">
         https://oksanaplakosh.intita.com
       </a>
       <div>{{ techno }}: html, css, js, github, google meet, trello, figma, wow effects, swiper.js.</div>
       <div>{{ role }}: - development of the block "about us";</div>
-      <div class="textMarginLeft">- development of the block "reviews";</div>
-      <div class="textMarginLeft">- development of the block "subjects";</div>
-      <div class="textMarginLeft">- 404 error page development;</div>
-      <div class="textMarginLeft">- developing a developer page.</div>
+      <div class="text-Margin-Left">- development of the block "reviews";</div>
+      <div class="text-Margin-Left">- development of the block "subjects";</div>
+      <div class="text-Margin-Left">- 404 error page development;</div>
+      <div class="text-Margin-Left">- developing a developer page.</div>
     </div>
-    <div class="blockExperience">
-      <div class="fontWeight">{{ titleE4 }}</div>
+    <div class="block-Experience">
+      <div class="font-Weight">{{ titleE4 }}</div>
       <a target="_blank" href="https://guide.intita.com/">
         https://guide.intita.com
       </a>
       <div>{{ techno }}: html, css, js, github, google meet, trello, figma, Vue.js, Nuxt.js, Vuetify, d3, vue-carusel, maska, Sass.</div>
       <div>{{ role }}: - development form of communication, validation and mask";</div>
-      <div class="textMarginLeft">- development header;</div>
-      <div class="textMarginLeft">- developing a developer page.</div>
+      <div class="text-Margin-Left">- development header;</div>
+      <div class="text-Margin-Left">- developing a developer page.</div>
     </div>
-
-    <div class="blockExperience">
-      <div class="fontWeight">{{ titleE3 }}</div>
+    <div class="block-Experience">
+      <div class="font-Weight">{{ titleE3 }}</div>
       <a target="_blank" href="https://bday.intita.com/">
         https://bday.intita.com
       </a>
       <div>{{ techno }}: html, css, js, github, google meet, jira, figma, Nuxt.js, Vuetify, axios.</div>
     </div>
-    <div class="blockExperience">
-      <div class="fontWeight">{{ experienceEnd }}</div>
+    <div class="block-Experience">
+      <div class="font-Weight">{{ experienceEnd }}</div>
     </div>
   </div>
   <hr class="horizontalLine">
+  <div style="margin-bottom: 20px"></div>
 </template>
 
 <script>
@@ -94,29 +94,29 @@ export default {
 </script>
 
 <style>
-  .containerExperience{
+  .container-Experience{
     margin-left: 20px;
   }
-  .experienceTitle {
+  .experience-Title {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     font-weight: 600;
   }
-  .blockExperience{
+  .block-Experience{
     margin-top: 10px;
   }
-  .fontWeight{
+  .font-Weight{
     font-weight: 500;
   }
-  .containerExperience a {
+  .container-Experience a {
     text-decoration: none;
     color: black;
     cursor: pointer;
     display: flex;
     align-items: center;
   }
-  .textMarginLeft {
+  .text-Margin-Left {
     margin-left: 54px;
   }
 </style>
