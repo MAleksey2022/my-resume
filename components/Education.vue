@@ -21,7 +21,7 @@ export default {
       title: ref('Educations'),
       educations: ref([
         {
-          year: '2022 - present',
+          year: '2022 - 2024',
           title: 'Vinnytsia IT-Academy',
           special: '',
           qualification: 'developer engineer',
@@ -57,7 +57,7 @@ export default {
     '$store.state.language'(newValue) {
       if (newValue==='Ua') {
         this.title ='Освіта';
-        this.educations[0].year='2022 - до тепер';
+        this.educations[0].year='2022 - 2024';
         this.educations[0].title='Вінницька IT-Академія';
         this.educations[0].qualification='інженер розробник';
         this.educations[1].year='2016 - 2018';
@@ -79,7 +79,7 @@ export default {
       }
       else if (newValue==='En') {
         this.title ='Educations';
-        this.educations[0].year='2022 - present';
+        this.educations[0].year='2022 - 2024';
         this.educations[0].title='Vinnytsia IT-Academy';
         this.educations[0].qualification='developer engineer';
         this.educations[1].year='2016 - 2018';
