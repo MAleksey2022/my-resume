@@ -11,7 +11,7 @@
   </div>
   <div class="blockContact">
     <div class="contactImg"><img alt="img" :src=addressImg /></div>
-    <a target="_blank" href="https://maps.app.goo.gl/mmUJrLoQKC3QR8HM8">
+    <a target="_blank" href="https://maps.app.goo.gl/NjKZnAzZffGRNwXj9">
       {{ address }}
     </a>
   </div>
