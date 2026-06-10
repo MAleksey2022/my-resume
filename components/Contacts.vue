@@ -44,7 +44,7 @@ import {ref} from "vue";
 export default {
   data() {
     return {
-      address: ref('Ukraine, Vinnitsa'),
+      address: ref('Canada, Alberta, Red Deer'),
     };
   },
   watch:{
