@@ -49,8 +49,8 @@ export default {
   },
   watch:{
     '$store.state.language'(newValue, oldValue) {
-      if (newValue==='Ua') {this.address ='Україна, Вінниця';}
-      else if (newValue==='En') {this.address ='Ukraine, Vinnitsa';}
+      if (newValue==='Ua') {this.address ='Канада, Альберта, Ред Дір';}
+      else if (newValue==='En') {this.address ='Canada, Alberta, Red Deer';}
     }
   },
 };
