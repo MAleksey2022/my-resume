@@ -5,8 +5,8 @@
   </div>
   <div class="blockContact">
     <div class="contactImg"><img alt="img" :src=phone /></div>
-    <a href="tel:+38(068)040 03 13" >
-      068 040 03 13
+    <a href="tel:+1-403-550-9167" >
+      +1 403 550 9167
     </a>
   </div>
   <div class="blockContact">
